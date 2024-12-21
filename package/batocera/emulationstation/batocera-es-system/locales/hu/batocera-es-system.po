@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: emulationstation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-11-10 16:11+0100\n"
+"PO-Revision-Date: 2024-12-03 23:06+0100\n"
 "Last-Translator: pigator\n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -1758,12 +1758,12 @@ msgctxt "game_options"
 msgid "60FPS"
 msgstr "60FPS"
 
-#. TRANSLATION: libretro/tyrquake
+#. TRANSLATION: libretro/tyrquake, xenia-canary
 msgctxt "game_options"
 msgid "60fps"
 msgstr "60fps"
 
-#. TRANSLATION: libretro/openlara, xenia-canary
+#. TRANSLATION: libretro/openlara
 msgctxt "game_options"
 msgid "60fps (Default)"
 msgstr "60fps (Alap)"
@@ -2724,10 +2724,20 @@ msgctxt "keys_files"
 msgid "Aim up"
 msgstr "Célzás felfelé"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Albania"
+msgstr "Albánia"
+
 #. TRANSLATION: etlegacy
 msgctxt "game_options"
 msgid "Albanian"
 msgstr "Albán"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Algeria"
+msgstr "Algéria"
 
 #. TRANSLATION: libretro/mesen
 msgctxt "game_options"
@@ -2874,6 +2884,11 @@ msgctxt "game_options"
 msgid "Analog Controller (DualShock)"
 msgstr "Analóg vezérlő (DualShock)"
 
+#. TRANSLATION: mugen.keys
+msgctxt "keys_files"
+msgid "Analog Down"
+msgstr "Analóg lefelé"
+
 #. TRANSLATION: libretro/puae, libretro/puae, libretro/puae, libretro/puae, libretro/puae2021, ...
 msgctxt "game_options"
 msgid "Analog Joystick"
@@ -2884,10 +2899,25 @@ msgctxt "game_options"
 msgid "Analog Joystick (Flystick)"
 msgstr "Analóg Joystick (Flystick)"
 
+#. TRANSLATION: mugen.keys
+msgctxt "keys_files"
+msgid "Analog Left"
+msgstr "Analóg balra"
+
+#. TRANSLATION: mugen.keys
+msgctxt "keys_files"
+msgid "Analog Right"
+msgstr "Analóg jobbra"
+
 #. TRANSLATION: libretro/duckstation, libretro/duckstation
 msgctxt "game_options"
 msgid "Analog Stick"
 msgstr "Analóg kar"
+
+#. TRANSLATION: mugen.keys
+msgctxt "keys_files"
+msgid "Analog Up"
+msgstr "Analóg felfelé"
 
 #. TRANSLATION: libretro/parallel_n64
 msgctxt "game_options"
@@ -3062,10 +3092,20 @@ msgctxt "game_options"
 msgid "Archimedes 540"
 msgstr "Archimedes 540"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Argentina"
+msgstr "Argentína"
+
 #. TRANSLATION: libretro/fceumm
 msgctxt "game_options"
 msgid "Arkanoid paddle"
 msgstr "Arkanoid vezérlő"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Armenia"
+msgstr "Örményország"
 
 #. TRANSLATION: drastic, libretro/desmume, libretro/melonds
 msgctxt "game_options"
@@ -3145,10 +3185,15 @@ msgctxt "game_options"
 msgid "August"
 msgstr "Agusztus"
 
-#. TRANSLATION: ryujinx, suyu
+#. TRANSLATION: ryujinx, suyu, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Australia"
 msgstr "Ausztrália"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Austria"
+msgstr "Ausztria"
 
 #. TRANSLATION: libretro/px68k
 msgctxt "game_options"
@@ -3245,6 +3290,11 @@ msgctxt "game_options"
 msgid "Avoids having to manually load side A every time."
 msgstr ""
 "Elkerülhető, hogy minden alkalommal kézzel kelljen betöltenie az A oldalt."
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Azerbaijan"
+msgstr "Azerbajdzsán"
 
 #. TRANSLATION: libretro/vice_x128, libretro/vice_xpet, libretro/vice_xplus4, libretro/vice_xvic
 msgctxt "game_options"
@@ -3491,6 +3541,11 @@ msgctxt "game_options"
 msgid "BT601_625/D65 (recommended for all EUR/AUS developed games)"
 msgstr "BT601_625/D65 (ajánlott minden európa/ausztrál fejlesztésű játékhoz)"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Bahrain"
+msgstr "Bahrein"
+
 #. TRANSLATION: shared, shared
 msgctxt "game_options"
 msgid "Balanced"
@@ -3534,6 +3589,21 @@ msgstr "Batocera beállítja az első audio eszközt (alapértelmezett)"
 msgctxt "game_options"
 msgid "Before NMI"
 msgstr "Az NMI előtt"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Belarus"
+msgstr "Belarusz"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Belgium"
+msgstr "Belgium"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Belize"
+msgstr "Belize"
 
 #. TRANSLATION: thextech
 msgctxt "game_options"
@@ -3677,6 +3747,11 @@ msgctxt "game_options"
 msgid "Bobba Fett Face Player Fix"
 msgstr "Bobba Fett Face Player Fix"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Bolivia"
+msgstr "Bolívia"
+
 #. TRANSLATION: libretro/fceumm, libretro/nestopia
 msgctxt "game_options"
 msgid "Both"
@@ -3712,7 +3787,7 @@ msgctxt "game_options"
 msgid "Bouncing Box"
 msgstr "Pattogó doboz"
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Brazil"
 msgstr "Brazília"
@@ -3749,6 +3824,11 @@ msgctxt "game_options"
 msgid "Brownish - Travel Wood"
 msgstr "Brownish - Travel Wood"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Brunei"
+msgstr "Brunei"
+
 #. TRANSLATION: rpcs3
 msgctxt "game_options"
 msgid ""
@@ -3760,20 +3840,30 @@ msgctxt "game_options"
 msgid "Buffered rendering"
 msgstr "Pufferelt renderelés"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Bulgaria"
+msgstr "Bulgária"
+
 #. TRANSLATION: etlegacy
 msgctxt "game_options"
 msgid "Bulgarian"
 msgstr "Bulgár"
 
-#. TRANSLATION: nds.drastic.keys
+#. TRANSLATION: mugen.keys, nds.drastic.keys
 msgctxt "keys_files"
 msgid "Button A"
 msgstr "A gomb"
 
-#. TRANSLATION: nds.drastic.keys
+#. TRANSLATION: mugen.keys, nds.drastic.keys
 msgctxt "keys_files"
 msgid "Button B"
 msgstr "B gomb"
+
+#. TRANSLATION: mugen.keys
+msgctxt "keys_files"
+msgid "Button C"
+msgstr "C gomb"
 
 #. TRANSLATION: nds.drastic.keys
 msgctxt "keys_files"
@@ -3795,20 +3885,25 @@ msgctxt "keys_files"
 msgid "Button Select"
 msgstr "Kiválasztás gomb"
 
-#. TRANSLATION: nds.drastic.keys
+#. TRANSLATION: mugen.keys, nds.drastic.keys
 msgctxt "keys_files"
 msgid "Button Start"
 msgstr "Start gomb"
 
-#. TRANSLATION: nds.drastic.keys
+#. TRANSLATION: mugen.keys, nds.drastic.keys
 msgctxt "keys_files"
 msgid "Button X"
 msgstr "X gomb"
 
-#. TRANSLATION: nds.drastic.keys
+#. TRANSLATION: mugen.keys, nds.drastic.keys
 msgctxt "keys_files"
 msgid "Button Y"
 msgstr "Y gomb"
+
+#. TRANSLATION: mugen.keys
+msgctxt "keys_files"
+msgid "Button Z"
+msgstr "Z gomb"
 
 #. TRANSLATION: vpinball.keys
 msgctxt "keys_files"
@@ -4044,6 +4139,11 @@ msgstr "SZÍNES MÓD"
 msgctxt "game_options"
 msgid "COMBAT DIFFICULTY"
 msgstr "HARC NEHÉZSÉGE"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "CONSOLE COUNTRY"
+msgstr "KONZOL ORSZÁGA"
 
 #. TRANSLATION: cemu
 msgctxt "game_options"
@@ -4517,6 +4617,11 @@ msgctxt "game_options"
 msgid "Can smooth the image."
 msgstr "Simíthatja a képet."
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Canada"
+msgstr "Kanada"
+
 #. TRANSLATION: ryujinx, suyu
 msgctxt "game_options"
 msgid "Canadian French"
@@ -4587,6 +4692,11 @@ msgctxt "game_options"
 msgid "Center (Default)"
 msgstr "Közép (Alap)"
 
+#. TRANSLATION: fpinball.keys
+msgctxt "keys_files"
+msgid "Change Camera Angle"
+msgstr "Kamera szögének módosítása"
+
 #. TRANSLATION: libretro/mesen-s
 msgctxt "game_options"
 msgid ""
@@ -4611,6 +4721,12 @@ msgctxt "game_options"
 msgid "Change the Gamecube system language."
 msgstr "A Gamecube rendszer nyelvének módosítása."
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Change the consoles country from the default of the United States."
+msgstr ""
+"Változtassa meg a konzolok országát az alapértelmezett Egyesült Államokról."
+
 #. TRANSLATION: dhewm3
 msgctxt "game_options"
 msgid "Change the game's brightness."
@@ -4620,6 +4736,15 @@ msgstr "A játék fényerejének módosítása."
 msgctxt "game_options"
 msgid "Change the game's language."
 msgstr "Változtassa meg a játék nyelvét."
+
+#. TRANSLATION: dhewm3
+msgctxt "game_options"
+msgid ""
+"Change the game's language. Game files require the supported language "
+"strings in the .pk4 files."
+msgstr ""
+"Változtassa meg a játék nyelvét. A játékfájlok megkövetelik a támogatott "
+"nyelvi karakterláncokat a .pk4 fájlokban."
 
 #. TRANSLATION: bigpemu, cannonball, cemu, duckstation, libretro/vice_x128, ...
 msgctxt "game_options"
@@ -4651,12 +4776,17 @@ msgstr ""
 "csökkentheti a torzítást. Az Alsathread az alacsony kategóriás rendszerekhez "
 "ajánlott."
 
-#. TRANSLATION: ryujinx, suyu
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Chile"
+msgstr "Chile"
+
+#. TRANSLATION: ryujinx, suyu, xenia, xenia-canary
 msgctxt "game_options"
 msgid "China"
 msgstr "Kína"
 
-#. TRANSLATION: cemu, ryujinx, sonic2013, suyu, xenia, ...
+#. TRANSLATION: cemu, dhewm3, ryujinx, sonic2013, suyu, ...
 msgctxt "game_options"
 msgid "Chinese"
 msgstr "Kínai"
@@ -4772,6 +4902,12 @@ msgid "Choose to display UI prompts or accept defaults."
 msgstr ""
 "Válassza ki, hogy megjeleníti-e a felhasználói felületet, vagy fogadja el az "
 "alapértelmezett értékeket."
+
+#. TRANSLATION: xenia-canary
+msgctxt "game_options"
+msgid "Choose to display achievement messages in the UI."
+msgstr ""
+"Válassza ki a eredményüzenetek megjelenítését a felhasználói felületen."
 
 #. TRANSLATION: theforceengine
 msgctxt "game_options"
@@ -4979,6 +5115,11 @@ msgctxt "game_options"
 msgid "Close app on the remote host when quitting Moonlight."
 msgstr "Alkalmazás bezárása a távoli állomáson, amikor kilép a Moonlightból."
 
+#. TRANSLATION: fpinball.keys
+msgctxt "keys_files"
+msgid "Coin"
+msgstr "Érme"
+
 #. TRANSLATION: libretro/mame, mame/pcsx2
 msgctxt "game_options"
 msgid "Coleco ADAM diskettes"
@@ -4998,6 +5139,11 @@ msgstr "Coleco Adam kazetta"
 msgctxt "game_options"
 msgid "Coleco ColecoVision cartridges"
 msgstr "Coleco ColecoVision kazetták"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Colombia"
+msgstr "Kolumbia"
 
 #. TRANSLATION: libretro/mrboom
 msgctxt "game_options"
@@ -5077,7 +5223,7 @@ msgctxt "game_options"
 msgid "Config"
 msgstr "Beállítás"
 
-#. TRANSLATION: jaguar.bigpemu.keys, jaguarcd.bigpemu.keys, naomi2.flycast.keys, naomi.flycast.keys, atomiswave.flycast.keys, ...
+#. TRANSLATION: atomiswave.flycast.keys, dreamcast.flycast.keys, jaguar.bigpemu.keys, jaguarcd.bigpemu.keys, naomi.flycast.keys, ...
 msgctxt "keys_files"
 msgid "Configuration menu"
 msgstr "Konfiguráció menü"
@@ -5146,6 +5292,11 @@ msgctxt "game_options"
 msgid "Core-powered video filter. Bisqwit filters are CPU heavy."
 msgstr "Magüzemű videószűrő. A Bisqwit-szűrők CPU-igényesek."
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
 #. TRANSLATION: libretro/opera
 msgctxt "game_options"
 msgid "Crash-n Burn"
@@ -5156,7 +5307,7 @@ msgctxt "game_options"
 msgid "Creatronic Mega Duck cartridges"
 msgstr "Creatronic Mega Duck kazetta"
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Croatia"
 msgstr "Horvátország"
@@ -5249,7 +5400,7 @@ msgctxt "game_options"
 msgid "Czech (cz)"
 msgstr "Cseh (cz)"
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Czech Republic"
 msgstr "Cseh Köztársaság"
@@ -5583,7 +5734,7 @@ msgstr ""
 "Az alapértelmezett SDL2-t használ, ellenkező esetben engedélyezze a "
 "vezérlőspecifikus képességeket. A Sony DS nem működik klónvezérlőkkel."
 
-#. TRANSLATION: mugen, wine
+#. TRANSLATION: wine
 msgctxt "game_options"
 msgid "Define the resolution and a new dedicated window."
 msgstr "Határozza meg a felbontást és egy új dedikált ablakot."
@@ -5608,7 +5759,7 @@ msgctxt "game_options"
 msgid "Dendy is a popular Russian clone with unique characteristics."
 msgstr "A Dendy egy népszerű orosz klón, egyedi tulajdonságokkal."
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Denmark"
 msgstr "Dánia"
@@ -5686,11 +5837,6 @@ msgstr "Dinopark Tycoon"
 msgctxt "game_options"
 msgid "Disable"
 msgstr "Letiltás"
-
-#. TRANSLATION: xenia, xenia-canary
-msgctxt "game_options"
-msgid "Disable UI prompts"
-msgstr "Felhasználói felület felszólítások letiltása"
 
 #. TRANSLATION: moonlight
 msgctxt "game_options"
@@ -5804,6 +5950,11 @@ msgctxt "game_options"
 msgid "Does not affect the on-screen keyboard."
 msgstr "Nincs hatással a képernyő-billentyűzetre."
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Dominican Republic"
+msgstr "Dominikai Köztársaság"
+
 #. TRANSLATION: libretro/melondsds, libretro/melondsds, libretro/melondsds, libretro/melondsds, libretro/melondsds
 msgctxt "game_options"
 msgid "Don't Override"
@@ -5840,6 +5991,11 @@ msgstr "Dupla pufferelés"
 msgctxt "game_options"
 msgid "Double the rendering resolution."
 msgstr "Duplázza meg a renderelési felbontást."
+
+#. TRANSLATION: mugen.keys
+msgctxt "keys_files"
+msgid "Down"
+msgstr "Le"
 
 #. TRANSLATION: flycast/dolphin, libretro/flycast
 msgctxt "game_options"
@@ -6155,6 +6311,11 @@ msgctxt "game_options"
 msgid "Easy"
 msgstr "Könnyű"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Ecuador"
+msgstr "Equador"
+
 #. TRANSLATION: scummvm
 msgctxt "game_options"
 msgid "Edge (sharper filet)"
@@ -6165,7 +6326,7 @@ msgctxt "keys_files"
 msgid "Edit room"
 msgstr "Szoba szerkesztése"
 
-#. TRANSLATION: suyu
+#. TRANSLATION: suyu, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Egypt"
 msgstr "Egyiptom"
@@ -6174,6 +6335,11 @@ msgstr "Egyiptom"
 msgctxt "game_options"
 msgid "Eire"
 msgstr "Eire"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "El Salvador"
+msgstr "Salvador"
 
 #. TRANSLATION: libretro/mame, mame/pcsx2
 msgctxt "game_options"
@@ -6313,6 +6479,11 @@ msgid "Enable QOS settings to optimize for internet or local network."
 msgstr ""
 "Engedélyezze a QOS-beállításokat az internetre vagy a helyi hálózatra való "
 "optimalizáláshoz."
+
+#. TRANSLATION: model2emu
+msgctxt "game_options"
+msgid "Enable X-Input mode for Xbox type controllers."
+msgstr "X-bemeneti mód engedélyezése Xbox típusú vezérlőkhöz."
 
 #. TRANSLATION: redream
 msgctxt "game_options"
@@ -6582,11 +6753,6 @@ msgctxt "game_options"
 msgid "Enabled (Default)"
 msgstr "Engedélyezve (alapértelmezett)"
 
-#. TRANSLATION: xenia, xenia-canary
-msgctxt "game_options"
-msgid "Enabled UI prompts (Default)"
-msgstr "Engedélyezett felhasználói felület felszólítások (alapértelmezett)"
-
 #. TRANSLATION: model2emu
 msgctxt "game_options"
 msgid "Enabled meshed polygons for translucency."
@@ -6668,7 +6834,7 @@ msgctxt "game_options"
 msgid "Enabling will smooth out the image."
 msgstr "Ha engedélyezi, a képet elsimítja."
 
-#. TRANSLATION: cemu, etlegacy, flycast/dolphin, libretro/dolphin, libretro/flycast, ...
+#. TRANSLATION: cemu, dhewm3, etlegacy, flycast/dolphin, libretro/dolphin, ...
 msgctxt "game_options"
 msgid "English"
 msgstr "Angol"
@@ -6886,6 +7052,11 @@ msgctxt "game_options"
 msgid "Epoch Game Pocket Computer cartridges"
 msgstr "Epoch Game Pocket Computer kazetták"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Estonia"
+msgstr "Észtország"
+
 #. TRANSLATION: flycast/dolphin, libretro/flycast, libretro/neocd, redream, ryujinx, ...
 msgctxt "game_options"
 msgid "Europe"
@@ -6936,17 +7107,12 @@ msgctxt "keys_files"
 msgid "Exit Duckstation"
 msgstr "Kilépés Duckstation"
 
-#. TRANSLATION: mame.keys
-msgctxt "keys_files"
-msgid "Exit Emulator"
-msgstr "Lépjen ki az emulátorból"
-
 #. TRANSLATION: steam.keys
 msgctxt "keys_files"
 msgid "Exit Steam"
 msgstr "Kilépés a Steamből"
 
-#. TRANSLATION: ps2.pcsx2.keys, xbox360.xenia-canary.keys, 3ds.citra.keys, scummvm.keys, triforce.dolphin_triforce.keys, ...
+#. TRANSLATION: 3ds.citra.keys, amiga1200.fsuae.keys, amiga500.fsuae.keys, amigacd32.fsuae.keys, amigacdtv.fsuae.keys, ...
 msgctxt "keys_files"
 msgid "Exit emulator"
 msgstr "Kilépés az emulátorból"
@@ -6956,7 +7122,7 @@ msgctxt "keys_files"
 msgid "Exit emulator using SDL"
 msgstr "Kilépés az emulátorból SDL használatával"
 
-#. TRANSLATION: sonic3-air.keys, fallout1-ce.keys, etlegacy.keys, sonic-mania.keys, jazz2.keys, ...
+#. TRANSLATION: etlegacy.keys, fallout1-ce.keys, fallout2-ce.keys, jazz2.keys, sonic-mania.keys, ...
 msgctxt "keys_files"
 msgid "Exit game"
 msgstr "Kilépés a játékból"
@@ -6966,7 +7132,7 @@ msgctxt "keys_files"
 msgid "Exit running Flatpak"
 msgstr "Lépjen ki a Flatpak futásából"
 
-#. TRANSLATION: rott.keys, theforceengine.keys, openjazz.keys, switch.ryujinx.keys, dreamcast.redream.keys, ...
+#. TRANSLATION: dreamcast.redream.keys, fpinball.keys, jaguar.bigpemu.keys, jaguarcd.bigpemu.keys, openjazz.keys, ...
 msgctxt "keys_files"
 msgid "Exit the emulator"
 msgstr "Kilépés az emulátorból"
@@ -7256,7 +7422,12 @@ msgctxt "game_options"
 msgid "Famicom (FDS)"
 msgstr "Famicom (FDS)"
 
-#. TRANSLATION: naomi2.flycast.keys, naomi.flycast.keys, atomiswave.flycast.keys, dreamcast.flycast.keys, psx.duckstation.keys, ...
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Faroe Islands"
+msgstr "Feröer"
+
+#. TRANSLATION: atomiswave.flycast.keys, dreamcast.flycast.keys, naomi.flycast.keys, naomi2.flycast.keys, psp.ppsspp.keys, ...
 msgctxt "keys_files"
 msgid "Fast Forward"
 msgstr "Gyorsan előre"
@@ -7308,12 +7479,17 @@ msgstr ""
 "Kitölti a képernyőt a képaránytól függetlenül. Nem működik az Integer "
 "felskálázással."
 
+#. TRANSLATION: devilutionx
+msgctxt "game_options"
+msgid "Fills the screen."
+msgstr "Kitölti a képernyőt."
+
 #. TRANSLATION: rpcs3
 msgctxt "game_options"
 msgid "Final image filtering."
 msgstr "Végső képszűrés."
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Finland"
 msgstr "Finnország"
@@ -7580,12 +7756,17 @@ msgstr ""
 "Kényszeríti a DX-illesztőprogramot, hogy felügyelt textúrákat használjon a "
 "dinamikus helyett."
 
+#. TRANSLATION: fpinball.keys
+msgctxt "keys_files"
+msgid "Forward Nudge"
+msgstr "Előre lökés"
+
 #. TRANSLATION: vpinball
 msgctxt "game_options"
 msgid "Framerate limiter to reduce CPU utilisation."
 msgstr "Framerate limiter a CPU kihasználtság csökkentésére."
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "France"
 msgstr "Franciaország"
@@ -7599,7 +7780,7 @@ msgstr ""
 "Ingyenes Build vagy Sandbox mód. Nem nyerhet vagy veszíthet egyedi készítésű "
 "térképeket, ha ez igaz értékre van állítva. A pénz miatt sem kell aggódnia."
 
-#. TRANSLATION: cemu, dolphin, etlegacy, fallout1-ce, fallout2-ce, ...
+#. TRANSLATION: cemu, dhewm3, dolphin, etlegacy, fallout1-ce, ...
 msgctxt "game_options"
 msgid "French"
 msgstr "Francia"
@@ -8106,7 +8287,12 @@ msgctxt "game_options"
 msgid "Genesis/Megadrive Style"
 msgstr "Genesis/Megadrive Stílus"
 
-#. TRANSLATION: cemu, dolphin, etlegacy, fallout1-ce, fallout2-ce, ...
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Georgia"
+msgstr "Georgia"
+
+#. TRANSLATION: cemu, dhewm3, dolphin, etlegacy, fallout1-ce, ...
 msgctxt "game_options"
 msgid "German"
 msgstr "Német"
@@ -8116,7 +8302,7 @@ msgctxt "game_options"
 msgid "German (de)"
 msgstr "Német (de)"
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Germany"
 msgstr "Németország"
@@ -8201,7 +8387,7 @@ msgctxt "game_options"
 msgid "Gray"
 msgstr "Szürke"
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Greece"
 msgstr "Görögország"
@@ -8270,6 +8456,11 @@ msgstr "Szürke – szürkeárnyalatos"
 msgctxt "game_options"
 msgid "Grey - Microvision"
 msgstr "Szürke - Microvision"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Guatemala"
+msgstr "Guatemala"
 
 #. TRANSLATION: xenia, xenia-canary
 msgctxt "game_options"
@@ -8466,7 +8657,7 @@ msgid "Hide crosshairs in supported games e.g. ActionMax, Maddog II."
 msgstr ""
 "A célkereszt elrejtése a támogatott játékokban, pl. ActionMax, Maddog II."
 
-#. TRANSLATION: dreamcast.redream.keys, naomi2.flycast.keys, naomi.flycast.keys, atomiswave.flycast.keys, dreamcast.flycast.keys
+#. TRANSLATION: atomiswave.flycast.keys, dreamcast.flycast.keys, dreamcast.redream.keys, jaguar.bigpemu.keys, jaguarcd.bigpemu.keys, ...
 msgctxt "keys_files"
 msgid "Hide the bezel"
 msgstr "Rejtse el a keretet"
@@ -8522,7 +8713,12 @@ msgctxt "keys_files"
 msgid "Hire staff"
 msgstr "Hire staff"
 
-#. TRANSLATION: suyu
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Honduras"
+msgstr "Honduras"
+
+#. TRANSLATION: suyu, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Hong Kong"
 msgstr "Hong Kong"
@@ -8559,7 +8755,7 @@ msgctxt "game_options"
 msgid "Hungarian (hg)"
 msgstr "Magyar (hg)"
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Hungary"
 msgstr "Magyarország"
@@ -8684,7 +8880,7 @@ msgctxt "game_options"
 msgid "IRON SOLDIER"
 msgstr "IRON SOLDIER"
 
-#. TRANSLATION: libretro/dosbox_pure, suyu
+#. TRANSLATION: libretro/dosbox_pure, suyu, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Iceland"
 msgstr "Izland"
@@ -8789,6 +8985,16 @@ msgctxt "game_options"
 msgid "Increase to 128 MiB for debug or homebrew applications."
 msgstr "Növelje 128 MiB-ra hibakeresési vagy homebrew alkalmazásokhoz."
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "India"
+msgstr "India"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Indonesia"
+msgstr "Indonézia"
+
 #. TRANSLATION: libretro/mame, mame/pcsx2
 msgctxt "game_options"
 msgid ""
@@ -8872,22 +9078,32 @@ msgctxt "game_options"
 msgid "Invert the vertical joystick axis on flight games."
 msgstr "Fordítsa meg a függőleges joystick tengelyt a repülős játékokban."
 
-#. TRANSLATION: suyu
+#. TRANSLATION: suyu, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Iran"
 msgstr "Irán"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Iraq"
+msgstr "Irak"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Ireland"
+msgstr "Írország"
 
 #. TRANSLATION: etlegacy
 msgctxt "game_options"
 msgid "Irish"
 msgstr "Ír"
 
-#. TRANSLATION: suyu
+#. TRANSLATION: suyu, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Israel"
 msgstr "Izrael"
 
-#. TRANSLATION: cemu, dolphin, etlegacy, fallout1-ce, fallout2-ce, ...
+#. TRANSLATION: cemu, dhewm3, dolphin, etlegacy, fallout1-ce, ...
 msgctxt "game_options"
 msgid "Italian"
 msgstr "Olasz"
@@ -8897,7 +9113,7 @@ msgctxt "game_options"
 msgid "Italian (it)"
 msgstr "Olasz (it)"
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Italy"
 msgstr "Olaszország"
@@ -8972,7 +9188,7 @@ msgctxt "game_options"
 msgid "JUMP ON B"
 msgstr "B TŰHÖZ UGRÁS"
 
-#. TRANSLATION: suyu
+#. TRANSLATION: suyu, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Jamaica"
 msgstr "Jamaica"
@@ -8987,7 +9203,7 @@ msgctxt "game_options"
 msgid "Japan"
 msgstr "Japán"
 
-#. TRANSLATION: cemu, etlegacy, flycast/dolphin, libretro/dolphin, libretro/flycast, ...
+#. TRANSLATION: cemu, dhewm3, etlegacy, flycast/dolphin, libretro/dolphin, ...
 msgctxt "game_options"
 msgid "Japanese"
 msgstr "Japán"
@@ -8996,6 +9212,11 @@ msgstr "Japán"
 msgctxt "game_options"
 msgid "Japanese [Shift-JIS]"
 msgstr "Japán [Shift-JIS]"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Jordan"
+msgstr "Jordánia"
 
 #. TRANSLATION: nds.drastic.keys
 msgctxt "keys_files"
@@ -9112,6 +9333,11 @@ msgctxt "game_options"
 msgid "Kaeru WFC (178.62.43.212)"
 msgstr "Kaeru WFC (178.62.43.212)"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Kazakhstan"
+msgstr "Kazahsztán"
+
 #. TRANSLATION: cemu
 msgctxt "game_options"
 msgid "Keep Aspect Ration (Default)"
@@ -9121,6 +9347,11 @@ msgstr "Tartsa meg az arányt (alapértelmezett)"
 msgctxt "game_options"
 msgid "Kempston Joystick"
 msgstr "Kempston Joystick"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Kenya"
+msgstr "Kenya"
 
 #. TRANSLATION: dolphin, dolphin, dolphin, dolphin, libretro/flycast, ...
 msgctxt "game_options"
@@ -9201,15 +9432,25 @@ msgctxt "game_options"
 msgid "Korea"
 msgstr "Korea"
 
-#. TRANSLATION: cemu, easyrpg, etlegacy, libretro/dolphin, play, ...
+#. TRANSLATION: cemu, dhewm3, easyrpg, etlegacy, libretro/dolphin, ...
 msgctxt "game_options"
 msgid "Korean"
 msgstr "Koreai"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Kuwait"
+msgstr "Kuvait"
 
 #. TRANSLATION: suyu
 msgctxt "game_options"
 msgid "Kwajalein"
 msgstr "Kwajalein"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Kyrgyzstan"
+msgstr "Kirgizisztán"
 
 #. TRANSLATION: moonlight
 msgctxt "game_options"
@@ -9221,7 +9462,7 @@ msgctxt "game_options"
 msgid "LAN / WAN STREAMING"
 msgstr "LAN / WAN STREAMING"
 
-#. TRANSLATION: etlegacy, fallout1-ce, fallout2-ce, hatari, iortcw, ...
+#. TRANSLATION: dhewm3, etlegacy, fallout1-ce, fallout2-ce, hatari, ...
 msgctxt "game_options"
 msgid "LANGUAGE"
 msgstr "NYELV"
@@ -9367,6 +9608,36 @@ msgctxt "game_options"
 msgid "Latin American Spanish"
 msgstr "Latin-amerikai spanyol"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Latvia"
+msgstr "Lettország"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Lebanon"
+msgstr "Libanon"
+
+#. TRANSLATION: mugen.keys
+msgctxt "keys_files"
+msgid "Left"
+msgstr "Bal"
+
+#. TRANSLATION: fpinball.keys
+msgctxt "keys_files"
+msgid "Left Flipper"
+msgstr "Bal kar"
+
+#. TRANSLATION: fpinball.keys
+msgctxt "keys_files"
+msgid "Left Manga Save"
+msgstr "Bal manga mentés"
+
+#. TRANSLATION: fpinball.keys
+msgctxt "keys_files"
+msgid "Left Nudge"
+msgstr "Balra lökés"
+
 #. TRANSLATION: vpinball.keys
 msgctxt "keys_files"
 msgid "Left flipper"
@@ -9402,10 +9673,15 @@ msgctxt "game_options"
 msgid "Legacy3D"
 msgstr "Legacy3D"
 
-#. TRANSLATION: suyu
+#. TRANSLATION: suyu, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Libya"
 msgstr "Líbia"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
 
 #. TRANSLATION: libretro/snes9x, libretro/snes9x_next
 msgctxt "game_options"
@@ -9487,7 +9763,12 @@ msgctxt "game_options"
 msgid "Linear filtering"
 msgstr "Lineáris szűrés"
 
-#. TRANSLATION: nds.drastic.keys, naomi2.flycast.keys, naomi.flycast.keys, atomiswave.flycast.keys, dreamcast.flycast.keys, ...
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Lithuania"
+msgstr "Litvánia"
+
+#. TRANSLATION: atomiswave.flycast.keys, dreamcast.flycast.keys, jaguar.bigpemu.keys, jaguarcd.bigpemu.keys, naomi.flycast.keys, ...
 msgctxt "keys_files"
 msgid "Load State"
 msgstr "Játékállás betöltése"
@@ -9551,6 +9832,11 @@ msgstr ""
 msgctxt "game_options"
 msgid "Lunar Ignore Brightness Color Fix"
 msgstr "Lunar Ignore Brightness Color Fix"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Luxembourg"
+msgstr "Luxemburg"
 
 #. TRANSLATION: libretro/mame, mame/pcsx2
 msgctxt "game_options"
@@ -9777,6 +10063,11 @@ msgctxt "game_options"
 msgid "Mac SE (4Mb RAM, 2 LD Floppies/HDD)"
 msgstr "Mac SE (4Mb RAM, 2 LD Floppies/HDD)"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Macau"
+msgstr "Makaó"
+
 #. TRANSLATION: libretro/mame, mame/pcsx2
 msgctxt "game_options"
 msgid "Macintosh 400K/800K Disk images"
@@ -9816,6 +10107,16 @@ msgid "Makes the dither pattern much less obvious at higher resolutions."
 msgstr ""
 "Nagyobb felbontásoknál sokkal kevésbé nyilvánvalóvá teszi a dither-"
 "mintázatot."
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Malaysia"
+msgstr "Malajzia"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Maldives"
+msgstr "Maldív-szigetek"
 
 #. TRANSLATION: corsixth.keys
 msgctxt "keys_files"
@@ -9986,6 +10287,11 @@ msgctxt "game_options"
 msgid "May result in a sharper image in some 2D games."
 msgstr "Egyes 2D-s játékokban élesebb képet eredményezhet."
 
+#. TRANSLATION: fpinball.keys
+msgctxt "keys_files"
+msgid "Mech Tilt"
+msgstr "Döntési mechanizmus"
+
 #. TRANSLATION: libretro/mesen, libretro/mesen-s, mupen64plus, pcsx2
 msgctxt "game_options"
 msgid "Medium"
@@ -10065,7 +10371,7 @@ msgctxt "keys_files"
 msgid "Menu"
 msgstr "Menü"
 
-#. TRANSLATION: rott.keys
+#. TRANSLATION: mugen.keys, rott.keys
 msgctxt "keys_files"
 msgid "Menu back"
 msgstr "Vissza menü"
@@ -10074,6 +10380,11 @@ msgstr "Vissza menü"
 msgctxt "game_options"
 msgid "Merge"
 msgstr "Összevonás"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Mexico"
+msgstr "Mexikó"
 
 #. TRANSLATION: libretro/opera
 msgctxt "game_options"
@@ -10115,6 +10426,16 @@ msgctxt "game_options"
 msgid "Modern Fightstick Style"
 msgstr "Modern Fightstick Stílus"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Monaco"
+msgstr "Monaco"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Mongolia"
+msgstr "Mongólia"
+
 #. TRANSLATION: suyu
 msgctxt "game_options"
 msgid "Mono"
@@ -10144,6 +10465,11 @@ msgstr "Pontosabb emuláció, de lassabb."
 msgctxt "game_options"
 msgid "More compatible"
 msgstr "Több kompatibilis"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Morocco"
+msgstr "Marokkó"
 
 #. TRANSLATION: rpcs3
 msgctxt "game_options"
@@ -10515,7 +10841,7 @@ msgctxt "game_options"
 msgid "Nestopia (RGB)"
 msgstr "Nestopia (RGB)"
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Netherlands"
 msgstr "Hollandia"
@@ -10530,6 +10856,11 @@ msgctxt "game_options"
 msgid "Never"
 msgstr "Soha"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "New Zealand"
+msgstr "Új-Zéland"
+
 #. TRANSLATION: supermodel
 msgctxt "game_options"
 msgid "New3D"
@@ -10539,6 +10870,11 @@ msgstr "New3D"
 msgctxt "keys_files"
 msgid "Next Disc (m3u)"
 msgstr "Következő lemez (m3u)"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Nicaragua"
+msgstr "Nicaragua"
 
 #. TRANSLATION: libretro/dosbox_pure
 msgctxt "game_options"
@@ -10600,7 +10936,12 @@ msgctxt "game_options"
 msgid "Normal (interpreter)"
 msgstr "Normal (interpreter)"
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "North Macedonia"
+msgstr "Észak-Macedónia"
+
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Norway"
 msgstr "Norvégia"
@@ -10815,6 +11156,11 @@ msgctxt "game_options"
 msgid "Olivetti Prodest PC 128S disks (BBC Master Compact)"
 msgstr "Olivetti Prodest PC 128S disks (BBC Master Compact)"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Oman"
+msgstr "Omán"
+
 #. TRANSLATION: cannonball, citra, citra, citra, citra, ...
 msgctxt "game_options"
 msgid "On"
@@ -10913,10 +11259,19 @@ msgctxt "game_options"
 msgid "Only increase the image size in integer multiples."
 msgstr "Csak egész számú többszörösökben növelje a képméretet."
 
-#. TRANSLATION: model2emu, openbor/openbor7530, supermodel
+#. TRANSLATION: openbor/openbor7530, supermodel
 msgctxt "game_options"
 msgid "Only some games feature rumble. Not compatible with all controllers."
 msgstr "Csak néhány játékban van rezgés. Nem kompatibilis minden vezérlővel."
+
+#. TRANSLATION: model2emu
+msgctxt "game_options"
+msgid ""
+"Only some games support rumble. Requires X-Input mode and may not be "
+"compatible with all controllers."
+msgstr ""
+"Csak néhány játék támogatja a rezgést. X-Input üzemmódot igényel, és nem "
+"biztos, hogy minden vezérlővel kompatibilis."
 
 #. TRANSLATION: libretro/fceumm
 msgctxt "game_options"
@@ -11321,6 +11676,16 @@ msgctxt "game_options"
 msgid "Paddles"
 msgstr "Lapátok"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Pakistan"
+msgstr "Pakisztán"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Panama"
+msgstr "Panama"
+
 #. TRANSLATION: libretro/pcsx_rearmed
 msgctxt "game_options"
 msgid "Pandemonium 2 Lazy Screen Update Fix"
@@ -11335,6 +11700,11 @@ msgstr "ParaLLEl (Best LLE)"
 msgctxt "game_options"
 msgid "ParaLLEl-RDP"
 msgstr "ParaLLEl-RDP"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Paraguay"
+msgstr "Paraguay"
 
 #. TRANSLATION: libretro/parallel_n64
 msgctxt "game_options"
@@ -11485,6 +11855,16 @@ msgctxt "game_options"
 msgid "Performance"
 msgstr "Teljesítmény"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Peru"
+msgstr "Peru"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Philippines"
+msgstr "Fülöp-szigetek"
+
 #. TRANSLATION: libretro/mame, mame/pcsx2
 msgctxt "game_options"
 msgid "Philips CD-i CD-ROMs"
@@ -11552,6 +11932,11 @@ msgctxt "game_options"
 msgid "Playstation 2 wheel type"
 msgstr "Playstation 2 kormány típusa"
 
+#. TRANSLATION: fpinball.keys
+msgctxt "keys_files"
+msgid "Plunger"
+msgstr "Kilövőrúd"
+
 #. TRANSLATION: bigpemu
 msgctxt "game_options"
 msgid "Point (Default)"
@@ -11562,7 +11947,7 @@ msgctxt "game_options"
 msgid "Pointer"
 msgstr "Mutató"
 
-#. TRANSLATION: libretro/dosbox_pure, suyu
+#. TRANSLATION: libretro/dosbox_pure, suyu, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Poland"
 msgstr "Lengyelország"
@@ -11572,7 +11957,7 @@ msgctxt "game_options"
 msgid "Poland (pl)"
 msgstr "Lengyel (pl)"
 
-#. TRANSLATION: etlegacy, xenia, xenia-canary
+#. TRANSLATION: dhewm3, etlegacy, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Polish"
 msgstr "Lengyel"
@@ -11612,7 +11997,7 @@ msgctxt "game_options"
 msgid "Portrait"
 msgstr "Álló"
 
-#. TRANSLATION: libretro/dosbox_pure, suyu
+#. TRANSLATION: libretro/dosbox_pure, suyu, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Portugal"
 msgstr "Portugália"
@@ -11728,6 +12113,11 @@ msgstr ""
 "Analóg kontroller- és egértámogatást biztosít, miközben javítja a hardverben "
 "található forgóvezérlő hibáit."
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
 #. TRANSLATION: vpinball.keys
 msgctxt "keys_files"
 msgid "Pull plunger"
@@ -11768,22 +12158,27 @@ msgctxt "game_options"
 msgid "QUIT ON HOST"
 msgstr "KILÉPÉS A HÁZIGAZDÁNÁL"
 
-#. TRANSLATION: theforceengine.keys, doom3.dhewm3.keys
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Qatar"
+msgstr "Katar"
+
+#. TRANSLATION: cgenius.cgenius.keys, doom3.dhewm3.keys, theforceengine.keys
 msgctxt "keys_files"
 msgid "Quick Load"
 msgstr "Mentés betöltése"
 
-#. TRANSLATION: theforceengine.keys, doom3.dhewm3.keys
+#. TRANSLATION: cgenius.cgenius.keys, doom3.dhewm3.keys, theforceengine.keys
 msgctxt "keys_files"
 msgid "Quick Save"
 msgstr "Gyors mentés"
 
-#. TRANSLATION: iortcw.keys, fallout1-ce.keys, corsixth.keys, fallout2-ce.keys
+#. TRANSLATION: corsixth.keys, fallout1-ce.keys, fallout2-ce.keys, iortcw.keys, mame.mame.keys
 msgctxt "keys_files"
 msgid "Quick load"
 msgstr "Gyors betöltés"
 
-#. TRANSLATION: iortcw.keys, fallout1-ce.keys, corsixth.keys, fallout2-ce.keys
+#. TRANSLATION: corsixth.keys, fallout1-ce.keys, fallout2-ce.keys, iortcw.keys, mame.mame.keys
 msgctxt "keys_files"
 msgid "Quick save"
 msgstr "Gyors mentés"
@@ -11798,7 +12193,7 @@ msgctxt "game_options"
 msgid "Quickload"
 msgstr "Gyorstöltés"
 
-#. TRANSLATION: corsixth.keys, xash3d_fwgs.keys, cannonball.keys
+#. TRANSLATION: cannonball.keys, corsixth.keys, xash3d_fwgs.keys
 msgctxt "keys_files"
 msgid "Quit the application"
 msgstr "Lépjen ki az alkalmazásból"
@@ -12274,7 +12669,7 @@ msgctxt "game_options"
 msgid "Retropad (Default)"
 msgstr "Retropad (alapértelmezett)"
 
-#. TRANSLATION: psx.duckstation.keys, psp.ppsspp.keys
+#. TRANSLATION: psp.ppsspp.keys, psx.duckstation.keys
 msgctxt "keys_files"
 msgid "Rewind"
 msgstr "Visszatekerés"
@@ -12288,6 +12683,26 @@ msgstr "A visszatekerés processzorigényes lehet."
 msgctxt "game_options"
 msgid "Rice"
 msgstr "Rice"
+
+#. TRANSLATION: mugen.keys
+msgctxt "keys_files"
+msgid "Right"
+msgstr "Jobb"
+
+#. TRANSLATION: fpinball.keys
+msgctxt "keys_files"
+msgid "Right Flipper"
+msgstr "Jobb kar"
+
+#. TRANSLATION: fpinball.keys
+msgctxt "keys_files"
+msgid "Right Manga Save"
+msgstr "Jobb manga mentés"
+
+#. TRANSLATION: fpinball.keys
+msgctxt "keys_files"
+msgid "Right Nudge"
+msgstr "Jobbra lökés"
 
 #. TRANSLATION: libretro/melonds
 msgctxt "game_options"
@@ -12323,6 +12738,11 @@ msgstr "Robo Bitstik 2"
 msgctxt "game_options"
 msgid "Roland MT-32/CM-32L"
 msgstr "Roland MT-32/CM-32L"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Romania"
+msgstr "Románia"
 
 #. TRANSLATION: etlegacy
 msgctxt "game_options"
@@ -12400,12 +12820,12 @@ msgstr ""
 "A futók leegyszerűsítik a Windows-játékok kompatibilitását. A /userdata/"
 "system/wine/custom alatt kell lennie egy futónak a saját könyvtárában."
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Russia"
 msgstr "Oroszország"
 
-#. TRANSLATION: cemu, etlegacy, play, ryujinx, scummvm, ...
+#. TRANSLATION: cemu, dhewm3, etlegacy, play, ryujinx, ...
 msgctxt "game_options"
 msgid "Russian"
 msgstr "Orosz"
@@ -12599,6 +13019,11 @@ msgstr "SHADER VÁLASZTÁS"
 msgctxt "game_options"
 msgid "SHARE MAME ARTWORK"
 msgstr "MAME ARTWORK MEGOSZTÁSA"
+
+#. TRANSLATION: xenia-canary
+msgctxt "game_options"
+msgid "SHOW ACHIEVEMENT MESSAGES"
+msgstr "EREDMÉNYÜZENETEK MUTATÁSA"
 
 #. TRANSLATION: duckstation, libretro/duckstation, libretro/gambatte, libretro/mednafen_psx, libretro/mgba, ...
 msgctxt "game_options"
@@ -12835,7 +13260,7 @@ msgctxt "game_options"
 msgid "STRETCH TO DISPLAY AREA"
 msgstr "NYÚJTÁS A KIJELZŐTERÜLETRE"
 
-#. TRANSLATION: duckstation
+#. TRANSLATION: devilutionx, duckstation
 msgctxt "game_options"
 msgid "STRETCH TO FILL"
 msgstr "NYÚJTÁS KITÖLTÉSRE"
@@ -12930,7 +13355,12 @@ msgctxt "game_options"
 msgid "Saturn Pad"
 msgstr "Saturn Pad"
 
-#. TRANSLATION: nds.drastic.keys, naomi2.flycast.keys, naomi.flycast.keys, atomiswave.flycast.keys, dreamcast.flycast.keys, ...
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Saudi Arabia"
+msgstr "Szaúd-Arábia"
+
+#. TRANSLATION: atomiswave.flycast.keys, dreamcast.flycast.keys, jaguar.bigpemu.keys, jaguarcd.bigpemu.keys, naomi.flycast.keys, ...
 msgctxt "keys_files"
 msgid "Save State"
 msgstr "Állam mentése"
@@ -12990,7 +13420,7 @@ msgctxt "game_options"
 msgid "Screen inclination (degree)"
 msgstr "Képernyő dőlésszöge (fok)"
 
-#. TRANSLATION: iortcw.keys, 3ds.citra.keys, scummvm.keys, triforce.dolphin_triforce.keys, naomi2.flycast.keys, ...
+#. TRANSLATION: 3ds.citra.keys, atomiswave.flycast.keys, doom3.dhewm3.keys, dreamcast.flycast.keys, iortcw.keys, ...
 msgctxt "keys_files"
 msgid "Screenshot"
 msgstr "Pillanatkép"
@@ -13135,7 +13565,7 @@ msgctxt "game_options"
 msgid "Serbian"
 msgstr "Szerb"
 
-#. TRANSLATION: singe.hypseus-singe.keys, daphne.hypseus-singe.keys
+#. TRANSLATION: daphne.hypseus-singe.keys, singe.hypseus-singe.keys
 msgctxt "keys_files"
 msgid "Service menu"
 msgstr "Szerviz menü"
@@ -13228,7 +13658,7 @@ msgctxt "game_options"
 msgid "Sets the window size to an integer size."
 msgstr "Az ablak méretét egész számra állítja be."
 
-#. TRANSLATION: amigacdtv.fsuae.keys, amigacd32.fsuae.keys, amiga500.fsuae.keys, amiga1200.fsuae.keys
+#. TRANSLATION: amiga1200.fsuae.keys, amiga500.fsuae.keys, amigacd32.fsuae.keys, amigacdtv.fsuae.keys
 msgctxt "keys_files"
 msgid "Settings GUI"
 msgstr "Grafikus felület beállítása"
@@ -13431,7 +13861,7 @@ msgctxt "game_options"
 msgid "Sinclair 2 controller set to AUTO."
 msgstr "Sinclair 2 controller set to AUTO."
 
-#. TRANSLATION: suyu
+#. TRANSLATION: suyu, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Singapore"
 msgstr "Szingapúr"
@@ -13536,12 +13966,12 @@ msgctxt "game_options"
 msgid "Skynet"
 msgstr "Skynet"
 
-#. TRANSLATION: psx.duckstation.keys, psp.ppsspp.keys, mame.keys
+#. TRANSLATION: psp.ppsspp.keys, psx.duckstation.keys
 msgctxt "keys_files"
 msgid "Slot +"
 msgstr "Slot +"
 
-#. TRANSLATION: psx.duckstation.keys, psp.ppsspp.keys, mame.keys
+#. TRANSLATION: psp.ppsspp.keys, psx.duckstation.keys
 msgctxt "keys_files"
 msgid "Slot -"
 msgstr "Slot -"
@@ -13576,12 +14006,12 @@ msgctxt "game_options"
 msgid "Slovak"
 msgstr "Szlovák"
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Slovakia"
 msgstr "Szlovákia"
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Slovenia"
 msgstr "Szlovénia"
@@ -13770,12 +14200,22 @@ msgstr ""
 "Hanggenerátor. A MAME gyorsabb, a Nuked pedig cikluspontos. Az eredeti "
 "modell YM2612-t, míg a későbbi verziók YM3438-at használtak."
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "South Africa"
+msgstr "Dél-Afrika"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "South Korea"
+msgstr "Dél-Korea"
+
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Spain"
 msgstr "Spanyolország"
 
-#. TRANSLATION: cemu, dolphin, etlegacy, fallout1-ce, fallout2-ce, ...
+#. TRANSLATION: cemu, dhewm3, dolphin, etlegacy, fallout1-ce, ...
 msgctxt "game_options"
 msgid "Spanish"
 msgstr "Spanyol"
@@ -13908,6 +14348,11 @@ msgstr "Szabványos vezérlő"
 msgctxt "game_options"
 msgid "Standard OpenGL (Default)"
 msgstr "Standard OpenGL (Default)"
+
+#. TRANSLATION: fpinball.keys
+msgctxt "keys_files"
+msgid "Start"
+msgstr "Start"
 
 #. TRANSLATION: corsixth.keys
 msgctxt "keys_files"
@@ -14101,7 +14546,7 @@ msgctxt "game_options"
 msgid "Swap the position of the dual displays."
 msgstr "Cserélje fel a kettős kijelző pozícióját."
 
-#. TRANSLATION: libretro/dosbox_pure
+#. TRANSLATION: libretro/dosbox_pure, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Sweden"
 msgstr "Svédország"
@@ -14131,6 +14576,11 @@ msgctxt "game_options"
 msgid "Switches the game to multiplayer mode."
 msgstr "Többjátékos módba kapcsolja a játékot."
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Switzerland"
+msgstr "Svájc"
+
 #. TRANSLATION: libretro/dosbox_pure
 msgctxt "game_options"
 msgid "Switzerland (French)"
@@ -14148,6 +14598,11 @@ msgid ""
 msgstr ""
 "A GB2Player/GBC2Player szinkronizálása „saves/gb” vagy „saves/gbc” "
 "mentésekkel."
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Syria"
+msgstr "Szíria"
 
 #. TRANSLATION: libretro/mame, mame/pcsx2
 msgctxt "game_options"
@@ -14399,7 +14854,7 @@ msgctxt "game_options"
 msgid "TWB64 - Pack 2"
 msgstr "TWB64 - Pack 2"
 
-#. TRANSLATION: ryujinx, suyu
+#. TRANSLATION: ryujinx, suyu, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Taiwan"
 msgstr "Tajvan"
@@ -14433,6 +14888,11 @@ msgstr "Tandy Radio Shack színes számítógépes kazetták"
 msgctxt "game_options"
 msgid "Tandy Radio Shack Color Computer disk images"
 msgstr "Tandy Radio Shack Color Computer lemezkép"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Thailand"
+msgstr "Thaiföld"
 
 #. TRANSLATION: citra
 msgctxt "game_options"
@@ -14709,6 +15169,11 @@ msgctxt "game_options"
 msgid "Trilinear (PS2)"
 msgstr "Trilineáris (PS2)"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Trinidad and Tobago"
+msgstr "Trinidad és Tobago"
+
 #. TRANSLATION: cemu
 msgctxt "game_options"
 msgid "Triple buffering"
@@ -14719,7 +15184,12 @@ msgctxt "game_options"
 msgid "True Colour"
 msgstr "Valódi színek"
 
-#. TRANSLATION: libretro/dosbox_pure, suyu
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Tunisia"
+msgstr "Tunézia"
+
+#. TRANSLATION: libretro/dosbox_pure, suyu, xenia, xenia-canary
 msgctxt "game_options"
 msgid "Turkey"
 msgstr "Törökország"
@@ -15020,6 +15490,11 @@ msgctxt "game_options"
 msgid "UTC-9"
 msgstr "UTC-9"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Ukraine"
+msgstr "Ukrajna"
+
 #. TRANSLATION: etlegacy
 msgctxt "game_options"
 msgid "Ukrainian"
@@ -15034,6 +15509,21 @@ msgstr "Ultra"
 msgctxt "game_options"
 msgid "Undocked"
 msgstr "Dokkolatlan"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "United Arab Emirates"
+msgstr "Egyesült Arab Emírségek"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "United Kingdom"
+msgstr "Egyesült Királyság"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "United States"
+msgstr "Egyesült Államok"
 
 #. TRANSLATION: suyu
 msgctxt "game_options"
@@ -15065,6 +15555,11 @@ msgctxt "game_options"
 msgid "Until Timeout"
 msgstr "Időtúllépésig"
 
+#. TRANSLATION: mugen.keys
+msgctxt "keys_files"
+msgid "Up"
+msgstr "Fel"
+
 #. TRANSLATION: pcsx2
 msgctxt "game_options"
 msgid ""
@@ -15095,6 +15590,11 @@ msgctxt "game_options"
 msgid "Upscale textures on 3D objects."
 msgstr "Felbővített textúrák a 3D objektumokon."
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Uruguay"
+msgstr "Uruguay"
+
 #. TRANSLATION: rpcs3
 msgctxt "game_options"
 msgid ""
@@ -15117,10 +15617,10 @@ msgstr "Host használata"
 #. TRANSLATION: supermodel
 msgctxt "game_options"
 msgid ""
-"Use L2/R2 for Accel/Brake and L1/R1 or R-stick Up/Down for Shift Up/Down."
+"Use L2/R2 for Brake/Accel and L1/R1 or R-stick Up/Down for Shift Up/Down."
 msgstr ""
-"Használja az L2/R2-t a gyorsításhoz/fékezéshez és az L1/R1-et vagy az R-"
-"stick Up/Down gombot a fel/le váltáshoz."
+"Használja az L2/R2-t a fékezéshez/gyorsításhoz és az L1/R1-et vagy a jobb "
+"gomba fel/le gombot a fel/le váltáshoz."
 
 #. TRANSLATION: libretro/mame, libretro/mame, libretro/mame, libretro/mame, libretro/mame, ...
 msgctxt "game_options"
@@ -15287,6 +15787,11 @@ msgctxt "game_options"
 msgid "Usually not much faster than single core mode."
 msgstr "Általában nem sokkal gyorsabb, mint az egymagos üzemmód."
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Uzbekistan"
+msgstr "Üzbegisztán"
+
 #. TRANSLATION: libretro/mame, mame/pcsx2
 msgctxt "game_options"
 msgid "V-Tech Creativision cartridges"
@@ -15417,7 +15922,7 @@ msgctxt "game_options"
 msgid "VIOLENCE LEVEL"
 msgstr "ERŐSZAK SZINT"
 
-#. TRANSLATION: mugen, wine
+#. TRANSLATION: wine
 msgctxt "game_options"
 msgid "VIRTUAL DESKTOP"
 msgstr "VIRTUÁLIS ASZTAL"
@@ -15467,6 +15972,11 @@ msgctxt "game_options"
 msgid "Vastly improves the speed of buffer maps."
 msgstr "Vastly improves the speed of buffer maps."
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Venezuela"
+msgstr "Venezuela"
+
 #. TRANSLATION: drastic, libretro/fceumm, libretro/flycast, libretro/flycast, libretro/nestopia
 msgctxt "game_options"
 msgid "Vertical"
@@ -15507,12 +16017,17 @@ msgctxt "game_options"
 msgid "Videopac+ G7400 (France)"
 msgstr "Videopac+ G7400 (France)"
 
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Vietnam"
+msgstr "Vietnám"
+
 #. TRANSLATION: pcsx2
 msgctxt "game_options"
 msgid "Virtual"
 msgstr "Virtuális"
 
-#. TRANSLATION: amigacdtv.fsuae.keys, amigacd32.fsuae.keys, amiga500.fsuae.keys, amiga1200.fsuae.keys
+#. TRANSLATION: amiga1200.fsuae.keys, amiga500.fsuae.keys, amigacd32.fsuae.keys, amigacdtv.fsuae.keys
 msgctxt "keys_files"
 msgid "Virtual Keyboard"
 msgstr "Virtuális Billentyűzet"
@@ -15781,6 +16296,11 @@ msgctxt "game_options"
 msgid "Works with 'Cycle-exact' mode and for a few games."
 msgstr "Működik a \"Cycle-Exact\" móddal és néhány játékhoz."
 
+#. TRANSLATION: model2emu
+msgctxt "game_options"
+msgid "X-INPUT"
+msgstr "X-BEMENET"
+
 #. TRANSLATION: libretro/mupen64plus-next
 msgctxt "game_options"
 msgid "X2"
@@ -15820,6 +16340,11 @@ msgstr "YUV v3 (Firebrand)"
 msgctxt "game_options"
 msgid "Yellow"
 msgstr "Sárga"
+
+#. TRANSLATION: xenia, xenia-canary
+msgctxt "game_options"
+msgid "Yemen"
+msgstr "Jemen"
 
 #. TRANSLATION: vita3k
 msgctxt "game_options"
@@ -16216,12 +16741,12 @@ msgctxt "game_options"
 msgid "quick switch"
 msgstr "gyorsváltás"
 
-#. TRANSLATION: raze.keys, eduke32.keys, gzdoom.keys
+#. TRANSLATION: eduke32.keys, gzdoom.keys, raze.keys
 msgctxt "keys_files"
 msgid "quickload"
 msgstr "quickload"
 
-#. TRANSLATION: raze.keys, eduke32.keys, gzdoom.keys
+#. TRANSLATION: eduke32.keys, gzdoom.keys, raze.keys
 msgctxt "keys_files"
 msgid "quicksave"
 msgstr "quicksave"
@@ -16256,7 +16781,7 @@ msgctxt "game_options"
 msgid "scanlines"
 msgstr "scanlines"
 
-#. TRANSLATION: raze.keys, eduke32.keys, gzdoom.keys
+#. TRANSLATION: eduke32.keys, gzdoom.keys, raze.keys
 msgctxt "keys_files"
 msgid "screenshot"
 msgstr "képernyőkép"
@@ -16459,10 +16984,6 @@ msgstr "sárga/kék"
 #~ "Válassza ki a sokszög rendezési pontosságát (a nagyobb műtermékeket "
 #~ "okozhat)."
 
-#~ msgctxt "keys_files"
-#~ msgid "Coin"
-#~ msgstr "Érme"
-
 #~ msgctxt "game_options"
 #~ msgid "Converts DirectX 9/10/11/12 calls to Vulkan."
 #~ msgstr "A DirectX 9/10/11/12 hívásokat Vulkan formátumba konvertálja."
@@ -16486,6 +17007,10 @@ msgstr "sárga/kék"
 #~ msgctxt "keys_files"
 #~ msgid "Digital Up"
 #~ msgstr "Digitális fel"
+
+#~ msgctxt "game_options"
+#~ msgid "Disable UI prompts"
+#~ msgstr "Felhasználói felület felszólítások letiltása"
 
 #~ msgctxt "game_options"
 #~ msgid "Disbaled (Default)"
@@ -16520,8 +17045,16 @@ msgstr "sárga/kék"
 #~ msgstr "Szörnyek engedélyezése vagy letiltása a csatában."
 
 #~ msgctxt "game_options"
+#~ msgid "Enabled UI prompts (Default)"
+#~ msgstr "Engedélyezett felhasználói felület felszólítások (alapértelmezett)"
+
+#~ msgctxt "game_options"
 #~ msgid "Enabled or disbale the mouse cursor. Useful for CG's menus."
 #~ msgstr "Az egérkurzor engedélyezése vagy letiltása. Hasznos a CG menüihez."
+
+#~ msgctxt "keys_files"
+#~ msgid "Exit Emulator"
+#~ msgstr "Lépjen ki az emulátorból"
 
 #~ msgctxt "game_options"
 #~ msgid "FlexDMD disabled"
@@ -16660,10 +17193,6 @@ msgstr "sárga/kék"
 #~ msgid "Standard"
 #~ msgstr "Szabványos"
 
-#~ msgctxt "keys_files"
-#~ msgid "Start"
-#~ msgstr "Start"
-
 #~ msgctxt "game_options"
 #~ msgid ""
 #~ "Stream texture to GPU in parrallel. Can improve performance on more "
@@ -16691,6 +17220,13 @@ msgstr "sárga/kék"
 #~ msgctxt "game_options"
 #~ msgid "USE ZINK RENDERER"
 #~ msgstr "ZNK RENDERELŐ HASZNÁLATA"
+
+#~ msgctxt "game_options"
+#~ msgid ""
+#~ "Use L2/R2 for Accel/Brake and L1/R1 or R-stick Up/Down for Shift Up/Down."
+#~ msgstr ""
+#~ "Használja az L2/R2-t a gyorsításhoz/fékezéshez és az L1/R1-et vagy az R-"
+#~ "stick Up/Down gombot a fel/le váltáshoz."
 
 #~ msgctxt "game_options"
 #~ msgid ""

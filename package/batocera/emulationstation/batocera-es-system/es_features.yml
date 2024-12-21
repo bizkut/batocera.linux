@@ -1636,12 +1636,12 @@ libretro:
                     "2":           2
                     "3":           3
                     "4":           4
-            fbneo-lightgun-hide-crosshair:
+            fbneo-lightgun-crosshair-emulation:
                 group: LIGHT GUN
                 prompt:      SHOW LIGHT GUN CROSSHAIRS
                 choices:
-                    "Off":                                disabled
-                    "On":                                 enabled
+                    "Off":                                always hide
+                    "On":                                 always show
       systems:
             neogeo:
                 cfeatures:
@@ -1932,6 +1932,13 @@ libretro:
                     "Keyboard":  3
                     "Mouse":     2
                     "Light Gun": 4
+            flycast_offscreen_reload:
+                group:       LIGHT GUN
+                prompt:      OFF-SCREEN RELOAD BUTTON
+                description: Set gun button 2 to reload.
+                choices:
+                    "Off":     0
+                    "On":      1
       systems:
             atomiswave:
                 cfeatures:
@@ -8148,13 +8155,6 @@ flycast:
             "Green"     :   -1073479933
             "White"     :   -1056964609
             "Disabled"  :   0
-    flycast_offscreen_reload:
-      group:       LIGHT GUN
-      prompt:      OFF-SCREEN RELOAD BUTTON
-      description: Set gun button 2 to reload.
-      choices:
-        "Off":     0
-        "On":      1
 
   systems:
     dreamcast:
@@ -9016,7 +9016,7 @@ pcsx2:
                 "On":      1
 
 ppsspp:
-  shared: [powermode, tdp, videomode, ratio, bezel, bezel_stretch, hud, hud_corner, bezel.tattoo, bezel.tattoo_corner, bezel.tattoo_file, bezel.resize_tattoo, rewind]
+  shared: [powermode, tdp, videomode, hud, hud_corner, bezel.tattoo, bezel.tattoo_corner, bezel.tattoo_file, bezel.resize_tattoo, rewind]
   cfeatures:
         gfxbackend:
             archs_include: [x86, x86_64, bcm2711, bcm2712, a3gen2, sm8250]
@@ -9769,7 +9769,7 @@ supermodel:
         pedalSwap:
             group: ADVANCED OPTIONS
             prompt:      MODERN PEDAL CONTROLS
-            description: Use L2/R2 for Accel/Brake and L1/R1 or R-stick Up/Down for Shift Up/Down.
+            description: Use L2/R2 for Brake/Accel and L1/R1 or R-stick Up/Down for Shift Up/Down.
             choices:
                 "Off":      0
                 "On":       1
@@ -11518,6 +11518,7 @@ soniccd:
 
 model2emu:
   features: [padtokeyboard]
+  shared: [powermode, tdp, videomode]
   cfeatures:
         model2_renderRes:
             prompt: RENDERING RESOLUTION
@@ -11615,12 +11616,18 @@ model2emu:
             choices:
                 "Off (Default)": 0
                 "On":            1
-        model2_forceFeedback:
-            prompt:      RUMBLE
-            description: Only some games feature rumble. Not compatible with all controllers.
+        model2_xinput:
+            prompt: X-INPUT
+            description: Enable X-Input mode for Xbox type controllers.
             choices:
-                "Off":      0
-                "On":       1
+                "Off": 0
+                "On":  1
+        model2_forceFeedback:
+            prompt: RUMBLE
+            description: Only some games support rumble. Requires X-Input mode and may not be compatible with all controllers.
+            choices:
+                "Off": 0
+                "On":  1
 gsplus:
   features: [padtokeyboard]
   shared: [powermode, tdp, videomode, bezel, bezel_stretch, hud, hud_corner, bezel.tattoo, bezel.tattoo_corner, bezel.tattoo_file, bezel.resize_tattoo]
@@ -13514,6 +13521,20 @@ dhewm3:
         "160%":           1.60
         "180%":           1.80
         "200% (Maximum)": 2
+    dhewm3_language:
+      prompt: LANGUAGE
+      description: Change the game's language. Game files require the supported language strings in the .pk4 files.
+      choices:
+        "English":  "english"
+        "Spanish":  "spanish"
+        "Italian":  "italian"
+        "German":   "german"
+        "French":   "french"
+        "Russian":  "russian"
+        "Polish":   "polish"
+        "Korean":   "korean"
+        "Japanese": "japanese"
+        "Chinese":  "chinese"
 
 jazz2-native:
   features: [padtokeyboard]

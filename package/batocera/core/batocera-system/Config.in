@@ -90,7 +90,7 @@ endif
 if BR2_PACKAGE_BATOCERA_TARGET_X86_ANY		|| \
    BR2_PACKAGE_BATOCERA_TARGET_BCM2711		|| \
    BR2_PACKAGE_BATOCERA_TARGET_BCM2712		|| \
-   BR2_PACKAGE_BATOCERA_TARGET_RISCV		|| \
+   BR2_PACKAGE_BATOCERA_TARGET_JH7110		|| \
    BR2_PACKAGE_BATOCERA_TARGET_H616		|| \
    BR2_PACKAGE_BATOCERA_TARGET_AMLOGIC_GLES3	|| \
    BR2_PACKAGE_BATOCERA_TARGET_ROCKCHIP_GLES3	|| \
@@ -150,7 +150,7 @@ config BR2_PACKAGE_BATOCERA_SYSTEM
 	bool "batocera.linux minimal"
 
 	# RISC-V support needs a hack here to declare as RV64GC, needed for Rust
-	select BR2_RISCV_ISA_RVC		if BR2_PACKAGE_BATOCERA_TARGET_RISCV
+	select BR2_RISCV_ISA_RVC		if BR2_PACKAGE_BATOCERA_TARGET_JH7110
 
 	# minimal system required packages
 	select BR2_TARGET_BATOCERA_IMAGES_DEFINITIONS
@@ -206,11 +206,18 @@ config BR2_PACKAGE_BATOCERA_SYSTEM
 	select BR2_PACKAGE_UTIL_LINUX_LIBSMARTCOLS	# library is used for smart adaptive formatting of tabular data
 	select BR2_PACKAGE_UTIL_LINUX_SETTERM		# Set terminal attributes
 	select BR2_PACKAGE_OPENVPN			         # OpenVPN support
-	select BR2_PACKAGE_WIREGUARD_TOOLS           # WireGuard VPN support
 	select BR2_PACKAGE_WIREGUARD_LINUX_COMPAT    if !BR2_TOOLCHAIN_HEADERS_AT_LEAST_5_6 && \
 	                                                !BR2_PACKAGE_BATOCERA_TARGET_A3GEN2 && \
 	                                                !BR2_PACKAGE_BATOCERA_TARGET_RK3326 && \
-	                                                !BR2_PACKAGE_BATOCERA_TARGET_S9GEN4 # Kernel < 5.6 backwards compatibility and not boards which already had it backported
+	                                                !BR2_PACKAGE_BATOCERA_TARGET_S9GEN4 && \
+													!BR2_PACKAGE_BATOCERA_TARGET_RK3128
+													# Kernel < 5.6 backwards compatibility and not boards which already had it backported
+	select BR2_PACKAGE_WIREGUARD_TOOLS           if !BR2_TOOLCHAIN_HEADERS_AT_LEAST_5_6 && \
+	                                                !BR2_PACKAGE_BATOCERA_TARGET_A3GEN2 && \
+	                                                !BR2_PACKAGE_BATOCERA_TARGET_RK3326 && \
+	                                                !BR2_PACKAGE_BATOCERA_TARGET_S9GEN4 && \
+													!BR2_PACKAGE_BATOCERA_TARGET_RK3128
+													# WireGuard VPN support (match kernel compatibility)
 	select BR2_PACKAGE_OPENRESOLV                # DNS resolver
 	select BR2_PACKAGE_USB_MODESWITCH		# USB modeswitch support
 	select BR2_PACKAGE_UMTOOL			# command line tool for configuring Ultimarc arcade hardware
@@ -261,6 +268,7 @@ config BR2_PACKAGE_BATOCERA_SYSTEM
 	select BR2_PACKAGE_AVAHI				# service discovery on local network
 	select BR2_PACKAGE_AVAHI_DAEMON				# ping batocera.local
 	select BR2_PACKAGE_AVAHI_LIBDNSSD_COMPATIBILITY		# bonjour
+	select BR2_PACKAGE_NSS_MDNS				# bonjour
 	select BR2_PACKAGE_WSDD					# service discovery on local network (windows network neighborhood)
 	select BR2_PACKAGE_NTP
 	select BR2_PACKAGE_RSYNC
@@ -321,12 +329,17 @@ config BR2_PACKAGE_BATOCERA_SYSTEM
 
 	# Hats
 	select BR2_PACKAGE_DOCKERPI_POWERBOARD    if BR2_PACKAGE_BATOCERA_TARGET_BCM2837
+	select BR2_PACKAGE_WM8960_AUDIO_HAT       if BR2_PACKAGE_BATOCERA_TARGET_BCM2835 || \
+	                                             BR2_PACKAGE_BATOCERA_TARGET_BCM2836 || \
+	                                             BR2_PACKAGE_BATOCERA_TARGET_BCM2837 || \
+	                                             BR2_PACKAGE_BATOCERA_TARGET_BCM2711 || \
+												 BR2_PACKAGE_BATOCERA_TARGET_BCM2712
 
 	# screens
 	select BR2_PACKAGE_DMD_SIMULATOR
 	select BR2_PACKAGE_DMD_SIMULATOR_PLAYER
 	select BR2_PACKAGE_LIBDMDUTIL # dependancy of vpinball, but vpinball is not everywhere
-	select BR2_PACKAGE_BATOCERA_BACKGLASS if (BR2_PACKAGE_XSERVER_XORG_SERVER || BR2_PACKAGE_BATOCERA_WAYLAND) && !BR2_PACKAGE_BATOCERA_TARGET_RISCV
+	select BR2_PACKAGE_BATOCERA_BACKGLASS if (BR2_PACKAGE_XSERVER_XORG_SERVER || BR2_PACKAGE_BATOCERA_WAYLAND) && !BR2_PACKAGE_BATOCERA_TARGET_JH7110
 
 	# swap
 	select BR2_PACKAGE_SWAPIT		if BR2_PACKAGE_BATOCERA_TARGET_RK3128	|| \
@@ -347,14 +360,13 @@ config BR2_PACKAGE_BATOCERA_SYSTEM
 						    BR2_PACKAGE_BATOCERA_TARGET_BCM2711	|| \
 						    BR2_PACKAGE_BATOCERA_TARGET_BCM2712	|| \
 						    BR2_PACKAGE_BATOCERA_TARGET_SM8250	|| \
-						    BR2_PACKAGE_BATOCERA_TARGET_RISCV
+						    BR2_PACKAGE_BATOCERA_TARGET_JH7110
 
 	# wireless drivers
 	# use the morrownr RTL8812au & RTL8821au drivers
 	select BR2_PACKAGE_RTL8812AU		if !BR2_PACKAGE_BATOCERA_TARGET_BCM2835		&& \
 						   !BR2_PACKAGE_BATOCERA_TARGET_H3		&& \
 						   !BR2_PACKAGE_BATOCERA_TARGET_RK3326		&& \
-						   !BR2_PACKAGE_BATOCERA_TARGET_RK3588		&& \
 						   !BR2_PACKAGE_BATOCERA_TARGET_RK3128		&& \
 						   !BR2_PACKAGE_BATOCERA_TARGET_ODIN		&& \
 						   !BR2_PACKAGE_BATOCERA_TARGET_SM8250
@@ -425,7 +437,12 @@ config BR2_PACKAGE_BATOCERA_SYSTEM
 	select BR2_PACKAGE_PYTHON_RPI_GPIO				if BR2_PACKAGE_BATOCERA_RPI_ANY && !BR2_PACKAGE_BATOCERA_TARGET_BCM2712
 	select BR2_PACKAGE_PYTHON_GPIOZERO				if BR2_PACKAGE_BATOCERA_TARGET_BCM2835 || BR2_PACKAGE_BATOCERA_TARGET_BCM2836
 	select BR2_PACKAGE_PYTHON_ADAFRUIT_CIRCUITPYTHON_WS2801		if BR2_PACKAGE_BATOCERA_RPI_ANY && !BR2_PACKAGE_BATOCERA_TARGET_BCM2712
-	select BR2_PACKAGE_PYTHON3_GPIOD				if BR2_PACKAGE_BATOCERA_TARGET_BCM2712 || BR2_PACKAGE_BATOCERA_TARGET_BCM2711
+	select BR2_PACKAGE_PYTHON3_GPIOD				if BR2_PACKAGE_BATOCERA_TARGET_BCM2712 || \
+	                                                   BR2_PACKAGE_BATOCERA_TARGET_BCM2711 || \
+													   BR2_PACKAGE_BATOCERA_TARGET_BCM2837 || \
+													   BR2_PACKAGE_BATOCERA_TARGET_BCM2836 || \
+													   BR2_PACKAGE_BATOCERA_TARGET_BCM2835
+
 	select BR2_PACKAGE_BATOCERA_LED_HANDHELD			if BR2_PACKAGE_BATOCERA_TARGET_X86_64_ANY || BR2_PACKAGE_BATOCERA_TARGET_SM8250
 
 	# GPIO kernel driver
@@ -512,7 +529,7 @@ config BR2_TARGET_BATOCERA_IMAGES_DEFINITIONS
 	default "x86-64-v3"										if BR2_PACKAGE_BATOCERA_TARGET_ZEN3
 	default "qualcomm/sd845/odin"									if BR2_PACKAGE_BATOCERA_TARGET_ODIN
 	default "qualcomm/sm8250/rp5 qualcomm/sm8250/rpmini"						if BR2_PACKAGE_BATOCERA_TARGET_SM8250
-	default "riscv/visionfive2"									if BR2_PACKAGE_BATOCERA_TARGET_RISCV
+	default "starfive/jh7110"   							if BR2_PACKAGE_BATOCERA_TARGET_JH7110
 	default "amlogic/s922x/ogu amlogic/s922x/gtkingpro amlogic/s922x/gtking amlogic/s922x/odroidn2l amlogic/s922x/vim3 amlogic/s922x/odroidn2 amlogic/s922x/odroidn2plus amlogic/s922x/zero2" \
 													if BR2_PACKAGE_BATOCERA_TARGET_S922X
 	default "amlogic/s905/odroidc2 amlogic/s905/tvbox amlogic/s905/lepotato amlogic/s905/vim amlogic/s905/p201 amlogic/s905/lepotatov2 amlogic/s905/minix-neo-u1" \
@@ -633,8 +650,8 @@ config BR2_PACKAGE_BATOCERA_TARGET_XU4
 
 # RISCV
 # -------------------------------------
-config BR2_PACKAGE_BATOCERA_TARGET_RISCV
-	bool "riscv"
+config BR2_PACKAGE_BATOCERA_TARGET_JH7110
+	bool "jh7110"
 
 endchoice
 
@@ -835,7 +852,8 @@ config BR2_PACKAGE_BATOCERA_ARCADE_SYSTEMS
 	select BR2_PACKAGE_LIBRETRO_MAME		if !BR2_PACKAGE_BATOCERA_TARGET_BCM2835	&& \
 							   !BR2_PACKAGE_BATOCERA_TARGET_H3	&& \
 							   !BR2_PACKAGE_BATOCERA_TARGET_RK3128
-	select BR2_PACKAGE_LIBRETRO_SAME_CDI		if BR2_PACKAGE_BATOCERA_TARGET_X86_ANY
+	select BR2_PACKAGE_LIBRETRO_SAME_CDI		if BR2_PACKAGE_BATOCERA_TARGET_X86_ANY || \
+	                                               BR2_aarch64
 
 	# Standalone MAME
 	select BR2_PACKAGE_MAME		if BR2_x86_64 || ((BR2_arm || BR2_aarch64 || BR2_RISCV_64) && BR2_PACKAGE_BATOCERA_WAYLAND)
@@ -884,7 +902,8 @@ config BR2_PACKAGE_BATOCERA_HANDHELD_SYSTEMS
     #select BR2_PACKAGE_LIBRETRO_CITRA          if	BR2_PACKAGE_BATOCERA_TARGET_X86_64_ANY #disabled, build errors. not well maintained.
 
 	# PSP
-	select BR2_PACKAGE_PPSSPP			if !BR2_PACKAGE_BATOCERA_TARGET_BCM2835
+	select BR2_PACKAGE_PPSSPP			if !BR2_PACKAGE_BATOCERA_TARGET_BCM2835 || \
+								           !BR2_PACKAGE_BATOCERA_TARGET_SM8250 # causes audio corruption
 	select BR2_PACKAGE_LIBRETRO_PPSSPP		if !BR2_PACKAGE_BATOCERA_TARGET_BCM2835
 
 	# Neo Geo Pocket
@@ -1023,7 +1042,7 @@ config BR2_PACKAGE_BATOCERA_PORTS_SYSTEMS
 							   !BR2_PACKAGE_BATOCERA_TARGET_H6	&& \
 							   !BR2_PACKAGE_BATOCERA_TARGET_RK3128	&& \
 							   !BR2_PACKAGE_BATOCERA_TARGET_RK3326	&& \
-							   !BR2_PACKAGE_BATOCERA_TARGET_RISCV	&& \
+							   !BR2_PACKAGE_BATOCERA_TARGET_JH7110	&& \
 							   !BR2_PACKAGE_BATOCERA_TARGET_ODIN	&& \
 							   !BR2_PACKAGE_BATOCERA_TARGET_SM8250
 
@@ -1055,7 +1074,7 @@ config BR2_PACKAGE_BATOCERA_PORTS_SYSTEMS
 	select BR2_PACKAGE_FALLOUT2_CE			# ALL
 
 	# Descent 1 & 2 open source engine
-	select BR2_PACKAGE_DXX_REBIRTH    if BR2_PACKAGE_HAS_LIBGL || BR2_PACKAGE_BATOCERA_RPI_VCORE
+	select BR2_PACKAGE_DXX_REBIRTH    if BR2_PACKAGE_HAS_LIBGL
 
 	# Wolfenstein: Enemy Territory
 	select BR2_PACKAGE_ETLEGACY    if BR2_x86_64 || BR2_PACKAGE_BATOCERA_XWAYLAND
@@ -1079,7 +1098,9 @@ config BR2_PACKAGE_BATOCERA_PORTS_SYSTEMS
 	select BR2_PACKAGE_OPENJAZZ		# ALL
 
 	# Jazz Jackrabbit 2
-	select BR2_PACKAGE_JAZZ2_NATIVE    if !BR2_PACKAGE_BATOCERA_TARGET_RISCV
+	select BR2_PACKAGE_JAZZ2_NATIVE    if BR2_PACKAGE_BATOCERA_GLES3 || \
+	                                      BR2_PACKAGE_LIBGLFW && \
+										  !BR2_PACKAGE_BATOCERA_TARGET_JH7110
 
 	help
 	  Ports
@@ -1637,7 +1658,7 @@ config BR2_PACKAGE_BATOCERA_KODI21
 					   BR2_PACKAGE_BATOCERA_TARGET_RK3399	|| \
 					   BR2_PACKAGE_BATOCERA_TARGET_RK3588	|| \
 					   BR2_PACKAGE_BATOCERA_TARGET_S905GEN3	|| \
-					   BR2_PACKAGE_BATOCERA_TARGET_RISCV	|| \
+					   BR2_PACKAGE_BATOCERA_TARGET_JH7110	|| \
 					   BR2_PACKAGE_BATOCERA_TARGET_ODIN	|| \
 					   BR2_PACKAGE_BATOCERA_TARGET_SM8250
 
